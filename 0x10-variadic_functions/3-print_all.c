@@ -4,7 +4,7 @@
 
 /**
  * print_all - prints anything
- * @format: List of types of arguments passed to the function.
+ * @format: list of types of arguments passed to the function
  */
 void print_all(const char * const format, ...)
 {
@@ -40,10 +40,11 @@ void print_all(const char * const format, ...)
 					i++;
 					continue;
 			}
-			sep = ",";
+			sep = ", ";
 			i++;
 		}
 	}
+
 	printf("\n");
 	va_end(list);
 }
